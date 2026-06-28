@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Darts Manager – PDC Season</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <!-- HEADER -->
+    <header>
+      <h1>Darts Manager – PDC Season</h1>
+      <button id="playNext">Play Next Match</button>
+    </header>
+
+    <!-- MAIN PANELS -->
+    <main>
+      <section id="fixtures">
+        <h2>Fixtures</h2>
+        <div id="fixturesList"></div>
+      </section>
+
+      <section id="squad">
+        <h2>Squad (Top 100 PDC Players)</h2>
+        <div id="squadList"></div>
+      </section>
+
+      <section id="calendar">
+        <h2>Season Calendar</h2>
+        <div id="calendarList"></div>
+      </section>
+
+      <section id="stats">
+        <h2>Season Stats</h2>
+        <div id="statsBox"></div>
+      </section>
+    </main>
+
+  </div>
+
+  <!-- GAME SCRIPTS -->
+  <script src="js/players.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/season.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>
